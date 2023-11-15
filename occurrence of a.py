@@ -1,9 +1,12 @@
-list=[]
-name=input("Enter the first name :")
-list.append(name)
-count=0
-for i in list[0]:
+b=[]
+n=int(input('Enter number of names:'))
+for i in range(n):
+    name=input('Enter the first name:')
+    b.append(name)
+print(b)
+a=str(b)
+count=0   
+for i in a:
     if i=='a':
         count=count+1
-print("Count of a in",list[0],":",str(count))
-    
+print('Count of a is',count)
