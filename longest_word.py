@@ -1,7 +1,7 @@
-list=["book","calculator","pen","pencil"]
-longest_length=0
-for word in list:
-    current_length=len(word)
-    if current_length > longest_length:
-        longest_length = current_length
-print("length of the longest word is:",longest_length)  
+def longest_word(word):
+    word=max(word,key_len)
+    print("Longest word:",word)
+    print("length of the longest word is:",len(word))
+a=["book","calculator","pen","pencil","bag"]
+longest_word(a)
+
